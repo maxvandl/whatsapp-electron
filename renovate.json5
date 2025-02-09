@@ -1,15 +1,21 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended", ":dependencyDashboard"],
-    "baseBranch": "main",
-  
-    "packageRules": [
-      {
-        "packageNames": ["*"],
-  
-        "schedule": ["on monday"]
-      }
-    ],
-    "depTypes": ["*"],
-    "separateMajorMinor": true
-  }
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: [
+    'config:recommended',
+    ':dependencyDashboard',
+  ],
+  baseBranches: [
+    'main',
+  ],
+  packageRules: [
+    {
+      matchPackageNames: [
+        '*',
+      ],
+      schedule: [
+        'on monday',
+      ],
+    },
+  ],
+  separateMajorMinor: true,
+}
