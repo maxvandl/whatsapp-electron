@@ -1,0 +1,45 @@
+{
+  "name": "whatsapp_business",
+  "version": "2.25.2",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.png",
+      "hardenedRuntime": false,
+      "sign": false,
+      "extraFiles": [
+        {
+          "from": "assets/uninstall.sh",
+          "to": "uninstall.sh"
+        }
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanmoy/whatsapp-desktop-clientwhatsapp-desktop-client.git"
+  },
+  "keywords": [
+    "Electron",
+    "WhatsApp Business",
+    "whatsappdesktop",
+    "MacOs",
+    "desktopApplication"
+  ],
+  "author": "Tanmoy Ganguly",
+  "license": "ISC",
+  "description": "A simple and efficient desktop client for WhatsApp.",
+  "devDependencies": {
+    "electron-builder": "latest",
+    "electron": "34.1.1"
+  },
+  "dependencies": {
+    "electron-context-menu": "4.0.5"
+  }
+}
