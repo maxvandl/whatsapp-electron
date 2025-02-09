@@ -4,8 +4,7 @@ To install the **WhatsApp Desktop Client**, follow these steps:
 
 1. Clone this repository or download the zip and extract it.
    ```
-   git clone [https://github.com/xanmoy/whatsapp-desktop-client.git] (https://github.com/maxvandl/whatsapp-electron.git)
-   # Alternatively, download the ZIP and extract it.
+   git clone https://github.com/xanmoy/whatsapp-desktop-client.git
    ```
 
 2. Now navigate to the directory
@@ -23,6 +22,10 @@ To install the **WhatsApp Desktop Client**, follow these steps:
    npm start
    ```
 
+5. Build the application:
+   ```
+   npm run build
+   ```
 **Note:** This application has been developed with Electron to run on platforms supported by Electron.
 
 ## Folder Structure
