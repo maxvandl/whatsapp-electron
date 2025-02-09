@@ -4,7 +4,7 @@ To install the **WhatsApp Desktop Client**, follow these steps:
 
 1. Clone this repository or download the zip and extract it.
    ```
-   git clone https://github.com/xanmoy/whatsapp-desktop-client.git 
+   git clone [https://github.com/xanmoy/whatsapp-desktop-client.git] (https://github.com/maxvandl/whatsapp-electron.git)
    # Alternatively, download the ZIP and extract it.
    ```
 
