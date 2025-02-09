@@ -19,9 +19,6 @@ jobs:
       with:
         node-version: '16' # Specify the Node version
 
-    - name: Install node_modules
-      run: npm ci
-
     - name: Build the project
       run: npm run build
 
