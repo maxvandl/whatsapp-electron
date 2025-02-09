@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "build": "electron-builder --mac"
   },
   "build": {
     "mac": {
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xanmoy/whatsapp-desktop-clientwhatsapp-desktop-client.git"
+    "url": "git+https://github.com/maxvandl/whatsapp-electron.git"
   },
   "keywords": [
     "Electron",
