@@ -36,6 +36,6 @@ jobs:
       - name: Upload DMG to Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist/
-          path: whatsapp*
-          compression-level: 0 # no compression
+          name: dist
+          path: dist/whatsapp_business-*.dmg
+          compression-level: 0
