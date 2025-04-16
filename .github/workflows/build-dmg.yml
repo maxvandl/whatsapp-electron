@@ -50,5 +50,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: dist/whatsapp_business-*.dmg
+          tag_name: v${{ github.run_number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
