@@ -32,5 +32,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: whatsapp_business-2.25.2-arm64.dmg  # Adjust this path to the actual DMG location
+          path: whatsapp*
           compression-level: 0 # no compression
