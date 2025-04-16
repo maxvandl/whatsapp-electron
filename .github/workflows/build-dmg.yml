@@ -27,10 +27,15 @@ jobs:
         run: npm run build
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+
+      - name: pwd
+        run: pwd
+
     
       - name: Upload DMG to Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist/mac-arm64
+          name: dist/
           path: whatsapp*
           compression-level: 0 # no compression
