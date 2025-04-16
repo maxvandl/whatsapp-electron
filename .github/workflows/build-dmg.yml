@@ -47,7 +47,7 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Upload DMG to GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: dist/whatsapp_business-*.dmg
           tag_name: v${{ github.run_number }}
