@@ -35,16 +35,16 @@ jobs:
           path: dist/whatsapp_business-*.dmg
           compression-level: 0
 
-      - name: Create GitHub Release
-        id: create_release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: v${{ github.run_number }}   # Или подставь свой tag/version
-          name: Release v${{ github.run_number }}
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      # - name: Create GitHub Release
+      #   id: create_release
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     tag_name: v${{ github.run_number }}   # Или подставь свой tag/version
+      #     name: Release v${{ github.run_number }}
+      #     draft: false
+      #     prerelease: false
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Upload DMG to GitHub Release
         uses: softprops/action-gh-release@v1
