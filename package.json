@@ -40,6 +40,6 @@
     "electron": "37.2.1"
   },
   "dependencies": {
-    "electron-context-menu": "4.1.0"
+    "electron-context-menu": "4.1.1"
   }
 }
