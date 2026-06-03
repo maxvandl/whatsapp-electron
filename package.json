@@ -37,7 +37,7 @@
   "description": "A simple and efficient desktop client for WhatsApp.",
   "devDependencies": {
     "electron-builder": "latest",
-    "electron": "42.0.0"
+    "electron": "42.3.3"
   },
   "dependencies": {
     "electron-context-menu": "4.1.2"
